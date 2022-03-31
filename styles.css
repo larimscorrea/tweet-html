@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --text: #0f1419; 
+    --icons-text: #536470; 
+    --border: #dadddf;
+    --
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+.container-tweet {
+    width: 596px;
+    height: 161px;
+    padding-right: 50px;
+
+    display: flex;
+
+    border: 1px solid var(--border);
+}
+
+.image {
+    margin-right: 12px;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 13px;
+    margin-top: 17px;
+
+}
+
+.title {
+    margin-right: 4px;
+}
+
+.subtitle {
+    margin-right: 4px;
+    margin-left: 6px;
+
+    font-size: 15px;
+    font-weight: 400; 
+    color: var(--icons-text)
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+
+    background-color: var(--icons-text);
+
+    display: inline-block;
+    align-self: center;
+
+}
+
+.date {
+    color: var(--icons-text);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.main p {
+    font-size: 15px;
+    font-weight: regular;
+    margin-top: 5px;
+
+
+
+}
+
+
+
+.fotter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    color: var(--icons-text);
+}
+
+.icon {
+    width: 15px;
+
+    margin-top: 15px;
+}
+
+.icon-share {
+    width: 13px;
+
+    margin-right: 55px;
+    margin-top: 15px;
+}
+
+.info {
+    margin: 17px;
+    
+
+    font-size: 13px;
+}
